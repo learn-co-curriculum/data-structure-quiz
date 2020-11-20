@@ -53,9 +53,9 @@ Which data structure should we use for the variable called <code>seen</code>?
 - Set
   - Yes! A Set stores only unique values and has O(1) lookup time. This will make it really fast to check if the element has already been seen.
 - Array
-  - Not quite. There's a faster choice here. Finding the element in an Array will take O(n) linear time, since we have to iterate over the entire Array every time we check if a value has been seen or not.
+  - Not quite. There's a faster choice here. Finding the element in an Array will take O(n) linear time in the worst case, since we have to iterate over the entire Array every time we check if a value has been seen or not.
 - Linked List
-  - Not quite. There's a faster choice here. Finding the element in a Linked List will take O(n) linear time, since we have to iterate over the entire list every time we check if a value has been seen or not.
+  - Not quite. There's a faster choice here. Finding the element in a Linked List will take O(n) linear time in the worst case, since we have to iterate over the entire list every time we check if a value has been seen or not.
 - I don't know
   - Keep on studying. With time and practice, it'll start to sink in.
 
@@ -63,10 +63,12 @@ Which data structure should we use for the variable called <code>seen</code>?
 
 We are writing an algorithm to find the most frequently occurring String in an Array of Strings.
 
-```
+<pre>
+<code>
 Input: ['cat', 'dog', 'bat', 'cat', 'dog', 'cat']
 Output: 'cat'
-```
+</code>
+</pre>
 
 Here is our pseudocode:
 
